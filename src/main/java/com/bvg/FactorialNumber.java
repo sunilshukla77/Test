@@ -1,6 +1,6 @@
 package com.bvg;
 
-public class FractionNumber {
+public class FactorialNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
