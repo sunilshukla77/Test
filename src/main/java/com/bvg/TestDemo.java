@@ -40,13 +40,23 @@ public class TestDemo {
 		char c= 'r';
 		String test= "50";
 		
-		
+		System.out.println(Weekdays.MONDAY);
 		String aString = String.valueOf(a);
 		System.out.println(aString);
 		
 		String rString = String.valueOf(c);
 		
 		int testInt = Integer.parseInt(test);
+		
+		// Encapsulation
+		Login l1 = new Login();
+		l1.setUserId("Bhagyesh");
+		l1.setPassword("Test");
+		
+		InterfaceDemo id = new InterfaceDemoImpl();
+		
+		System.out.println(" User id "+ l1.getUserId());
+		System.out.println(" Password "+ l1.getPassword());
 		
 	}
 	
