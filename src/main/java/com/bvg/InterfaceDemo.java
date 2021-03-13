@@ -10,4 +10,5 @@ interface InterfaceDemo {
 	}
 
     int mul(int a, int b);
+	<T> int compareTo(T o);
 }

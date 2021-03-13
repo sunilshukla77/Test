@@ -4,17 +4,22 @@ public class TestDemo {
 	
 	private String name; // Variable 
 	private String ssn;
+	private String idNum;
 	
 	protected String defaultvalue = "Test Not Static";
 	protected static String staticVariable = "Static Variable";
+	private static float b;
+	private static String rString;
+	private static int testInt;
+	private static InterfaceDemo id;
 	
 	public TestDemo(){  // Default Constructor
 		
 	}
 	
 	public TestDemo(String personName, String ssn){ // Parameterise Constructor 
-		this.name= personName;
-		this.ssn= ssn;
+		this.setName(personName);
+		this.setSsn(ssn);
 	}
 	
 	public static void main(String args[]) {
@@ -36,7 +41,7 @@ public class TestDemo {
 		System.out.println("Final "+i);
 		
 		int a= 20;
-		float b = 30L;
+		setB(30L);
 		char c= 'r';
 		String test= "50";
 		
@@ -44,16 +49,16 @@ public class TestDemo {
 		String aString = String.valueOf(a);
 		System.out.println(aString);
 		
-		String rString = String.valueOf(c);
+		setrString(String.valueOf(c));
 		
-		int testInt = Integer.parseInt(test);
+		setTestInt(Integer.parseInt(test));
 		
 		// Encapsulation
 		Login l1 = new Login();
 		l1.setUserId("Bhagyesh");
 		l1.setPassword("Test");
 		
-		InterfaceDemo id = new InterfaceDemoImpl();
+		setId(new InterfaceDemoImpl<Object>());
 		
 		System.out.println(" User id "+ l1.getUserId());
 		System.out.println(" Password "+ l1.getPassword());
@@ -67,6 +72,62 @@ public class TestDemo {
 	
 	public static int substration(int a, int b) { //Static method
 		return a-b;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSsn() {
+		return ssn;
+	}
+
+	public void setSsn(String ssn) {
+		this.ssn = ssn;
+	}
+
+	public String getIdNum() {
+		return idNum;
+	}
+
+	public void setIdNum(String idNum) {
+		this.idNum = idNum;
+	}
+
+	public static float getB() {
+		return b;
+	}
+
+	public static void setB(float b) {
+		TestDemo.b = b;
+	}
+
+	public static String getrString() {
+		return rString;
+	}
+
+	public static void setrString(String rString) {
+		TestDemo.rString = rString;
+	}
+
+	public static int getTestInt() {
+		return testInt;
+	}
+
+	public static void setTestInt(int testInt) {
+		TestDemo.testInt = testInt;
+	}
+
+	public static InterfaceDemo getId() {
+		return id;
+	}
+
+	public static void setId(InterfaceDemo id) {
+		TestDemo.id = id;
 	}
 
 }

@@ -21,14 +21,12 @@ public class PrimeNumber {
 				System.out.println(value + " is prime number");
 			}
 		}
-		
+
 	}
 }
-
 
 // Prime no = 0 and 1 is not prime no, if it is factor greater than 2 number
 
 //if it is divisible 1 and itself means only 2 factor that is know as prime number.
 
 //Even number can not be prime no
- 
