@@ -6,4 +6,14 @@ public class Dog extends Animal{
 		// TODO Auto-generated constructor stub
 	}
 
+	public void move1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void bark() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
