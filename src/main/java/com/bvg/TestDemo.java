@@ -58,7 +58,6 @@ public class TestDemo {
 		l1.setUserId("Bhagyesh");
 		l1.setPassword("Test");
 		
-		setId(new InterfaceDemoImpl<Object>());
 		
 		System.out.println(" User id "+ l1.getUserId());
 		System.out.println(" Password "+ l1.getPassword());

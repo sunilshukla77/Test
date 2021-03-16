@@ -1,6 +1,6 @@
 package com.bvg;
 
-public class InterfaceDemoImpl<T> implements InterfaceDemo, Comparable{
+public class InterfaceDemoImpl implements InterfaceDemo{
 	
 	public InterfaceDemoImpl(){
 		
@@ -47,13 +47,6 @@ public class InterfaceDemoImpl<T> implements InterfaceDemo, Comparable{
 		System.out.println(interDemo.sub(5, 5));
 		
 	}
-
-	@Override
-	public int compareTo(T o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
 	@Override
 	public int add(int a, int b) {
 		// TODO Auto-generated method stub
@@ -61,26 +54,10 @@ public class InterfaceDemoImpl<T> implements InterfaceDemo, Comparable{
 	}
 
 	@Override
-	public int compareTo(Object o) {
+	public <T> int compareTo(T o) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
-	public int compareTo(Object arg0) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public int compareTo(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public int compareTo(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 }
