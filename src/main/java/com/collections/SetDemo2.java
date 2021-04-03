@@ -102,7 +102,7 @@ public class SetDemo2 {
 			System.out.println(i + " " + arryString[i]);
 		}
 		
-		//Collections.sort(persons, new Comperator);
+		//Collections.sort(persons, new Comparator);
 		for (Person person : persons) {
 			System.out.println(person.toString());
 		}

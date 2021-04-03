@@ -14,7 +14,7 @@ public class SetDemo1 {
 		names.add("SI");
 		names.add("RO");
 		names.add("RO");
-		names.add(null); //Not Allow null
+		//names.add(null); //Not Allow null
 		System.out.println(names.toString());
 	}
 }
