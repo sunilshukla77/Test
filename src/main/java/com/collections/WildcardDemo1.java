@@ -1,6 +1,7 @@
 package com.collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class WildcardDemo1 {
@@ -31,8 +32,8 @@ public class WildcardDemo1 {
 		// dogs.add(new Animal()); //C.E. Not applicable for Animal
 		// dogs.add(new Cat());//C.E. Not applicable for Cat
 		/*
-		 * Iterator ittr = dogs.iterator(); while(ittr.hasNext())
-		 * System.out.println(ittr.next());
+		 Iterator ittr = dogs.iterator(); while(ittr.hasNext())
+		 System.out.println(ittr.next());
 		 */
 		for (Object o : dogs) { // always Object
 			System.out.println(o);

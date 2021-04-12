@@ -50,6 +50,7 @@ class Bank implements Comparable<Bank>{
 			return false;
 		return true;
 	}
+	
 
 	@Override
 	public String toString() {
