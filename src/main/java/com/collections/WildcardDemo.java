@@ -23,8 +23,8 @@ public class WildcardDemo {
 	}
 
 	private static void readAnimals(List<? extends Animal> animals) { // allows any subtype of Animal
-		// animals.add(new Cat()); //C.E.
-		// animals.add(new Dog()); //C.E.
+		//animals.add(new Cat()); //C.E.
+		//animals.add(new Dog()); //C.E.
 		// Read elements
 		for (Animal a : animals) {
 			System.out.println(a);
