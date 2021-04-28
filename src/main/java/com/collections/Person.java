@@ -10,7 +10,7 @@ public class Person implements Comparator<Person> {
 	String city;
 
 	public Person() {
-		super();
+		
 	}
 
 	public Person(String ssn, String name, String age, String city) {

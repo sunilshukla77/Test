@@ -6,7 +6,7 @@ import java.util.Queue;
 public class QueueExample {
     public static void main(String[] args) {
     	Queue<String> qe=new LinkedList<String>(); ////elements order is FIFO
-    	List<String> ls = new LinkedList<String>(); // FIFO
+    	//List<String> ls = new LinkedList<String>(); // FIFO
         qe.add("b");
         qe.add("a");
         qe.add("c");
