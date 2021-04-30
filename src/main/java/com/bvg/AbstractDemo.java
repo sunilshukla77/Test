@@ -9,6 +9,6 @@ public abstract class AbstractDemo {
 		System.out.println(message);
 	}
 	
-	
+	//Note : we can not create instance of Abstract class.
 
 }

@@ -2,10 +2,10 @@ package com;
 
 public class Person implements Cloneable {
 
-	String name;
-	String age;
-	String userId;
-	String password;
+	private String name;
+	private String age;
+	private String userId;
+	private String password;
 	
 	public Person() {
 		System.out.println("Default Constructor");
@@ -24,7 +24,7 @@ public class Person implements Cloneable {
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.name = name + " Test";
 	}
 
 	public String getAge() {

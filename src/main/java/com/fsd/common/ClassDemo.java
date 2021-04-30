@@ -3,6 +3,8 @@
  */
 package com.fsd.common;
 
+import com.bvg.Weekdays;
+
 /**
  * @author Sunil Shukla
  *
@@ -33,6 +35,23 @@ public class ClassDemo {
 		nameKamal.addressK();
 	
 		nameKamal= null;
+		
+		
+		System.out.println(Weekdays.FRIDAY);
+		
+		int a , b;
+     	a = 10;
+     	b = (a==1)?20:30; 
+		System.out.println("Value of b is : "+  b );
+      	b = (a ==10)?20:30;
+		System.out.println("Value of b is : "+ b );
+		
+		String name ="Prashant";
+		if(name instanceof String) {
+			System.out.println("String Class");
+		}
+
+
 	}
 	
 	

@@ -2,7 +2,9 @@ package com.fsd.common;
 
 public interface Shape {
 	
-	void circle();
+	default void circle() {
+		System.out.println("Circle ");
+	}
 	void triangel();
 	void rectangle();
 

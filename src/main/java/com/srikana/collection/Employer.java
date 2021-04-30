@@ -3,8 +3,10 @@ package com.srikana.collection;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
+import com.collections.Person;
+
 @Component
-public class Employer {
+public class Employer extends Person {
 	
 	String name;
 	String ssn;
@@ -53,7 +55,12 @@ public class Employer {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
+
+
+	@Override
+	public String toString() {
+		return "Employer [name=" + name + ", ssn=" + ssn + ", address=" + address + "]";
+	}
 	
 
 	

@@ -58,10 +58,6 @@ public class Person implements Comparator<Person> {
 		return "Person [ssn=" + ssn + ", name=" + name + ", age=" + age + ", city=" + city + "]";
 	}
 
-	/*
-	 * @Override public int compareTo(Person o) { String thisVal= this.getName();
-	 * String oVal= o.getName(); return thisVal.compareTo(oVal); }
-	 */
 	@Override
 	public int compare(Person o1, Person o2) {
 
