@@ -28,5 +28,6 @@ public class StreamEx2 {
 		//startsWithN = friends.stream().filter(name->name.startsWith("N")).collect(Collectors.toList());
 		
 		System.out.println(startsWithN);
+		
 	}
 }
