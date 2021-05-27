@@ -9,6 +9,7 @@ public class StreamEx3 {
 			new Employee(3,"Mark", 300000.0)
 					};
 	Stream<Employee> employees = Stream.of(arrayOfEmps);
+	
 	public static Employee[] getArrayOfEmps() {
 		return arrayOfEmps;
 	}
