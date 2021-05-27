@@ -8,7 +8,7 @@ public class StreamEx3 {
 
 	public static void main(String[] args) {
 	
-		List<Employee> le= new ArrayList();
+		List<Employee> le= new ArrayList<Employee>();
 		le.add(new Employee(1,"Sum", 1000d));
 		le.add(new Employee(2,"Sun", 2000d));
 		le.add(new Employee(3,"Arr", 3000d));
@@ -18,6 +18,19 @@ public class StreamEx3 {
 		
 		le.stream().filter(e-> e.getSalary()>5000d).collect(Collectors.toList()).forEach(System.out::println);
 		
+		//le.stream().map(e->e.getSalary()).distinct().collect(Collectors.toList()).forEach(System.out::println);
+		
+		//le.stream().map(e-> e.getId()).sorted().collect(Collectors.toList()).forEach(System.out::println);
+				
+		//le.stream().map(e->e.getName()).sorted(Collections.reverseOrder()).collect(Collectors.toList()).forEach(System.out::println);
+
+		//le.stream().map(e->e.getSalary()).sorted().collect(Collectors.toList()).forEach(System.out::println);
+				
+		//le.stream().peek(e->e.getId()).collect(Collectors.toList()).forEach(System.out::println);
+				
+		//* le.stream().map(e->e.getSalary()).max(Comparator.reverseOrder()).get().collect(Collectors.toList()).forEach(System.out::println);
+				
+		//le.stream().flatMap(e->e.getName()).collect(Collectors.toList()).forEach(System.out::println);
 	}
 
 }
