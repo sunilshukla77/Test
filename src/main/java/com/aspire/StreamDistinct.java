@@ -3,6 +3,8 @@ package com.aspire;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
+import java.util.OptionalInt;
 import java.util.Random;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
@@ -46,8 +48,51 @@ public class StreamDistinct {
 		IntStream intStream = IntStream.range(1, 5);
 		
 		Random random = new Random();
-		LongStream longStream = random.longs(5);
-		System.out.println(longStream);
+		LongStream stream = random.longs(5);
+		stream.forEach(System.out::println);
+		
+		//Referencing a Stream, Java 8 streams can't be reused.
+		Stream<String> st =Stream.of("a","b","c","d","c").filter(e->e.contains("c"));
+		Optional<String> anyElement = st.findAny();
+		//Optional<String> findFirstElement = anyElement.findFirst();
+		System.out.println(anyElement);
+		//System.out.println(findFirstElement);
+		
+		//Stream pipeline->To perform a sequence of operations over the elements of the data source and aggregate their results,
+		//we need three parts: the source, intermediate operation(s) and a terminal operation.
+				
+		Stream<String> oneModifiedStream = Stream.of("abcd","bcda","sunil","bvga").skip(1);
+		
+		Stream<String> secondModifiedStream = oneModifiedStream.skip(1).map(e->e.substring(2,4));
+		
+		System.out.println(oneModifiedStream);
+		System.out.println(secondModifiedStream);
+		
+		//Stream Reduction-> reduce() and collect
+		
+		OptionalInt reduced = IntStream.range(1, 5).reduce((a,b)-> a+b); // 1+2+3+4= 10
+		System.out.println(reduced);
+		
+		// 10+1= 11, 10+2=12, 10+3=13 combine 11+12+13= 36
+		int sumval = Arrays.asList(1,2,3).parallelStream().reduce(10, (a,b)->a+b, (a,b)-> {
+			System.out.println("Combined value called");
+			return a+b;
+		});
+		
+		System.out.println(sumval);
+		
+		List<Product> productList = Arrays.asList(new Product(23, "potatoes"),
+				  new Product(14, "orange"), new Product(13, "lemon"),
+				  new Product(23, "bread"), new Product(13, "sugar"));
+		
+		List<String> productName = productList.stream().map(Product::getProductname).collect(Collectors.toList());
+		System.out.println(productName.toString());
+		
+		// average value
+		// sum of all numeric elements 
+		// Grouping of stream’s elements 
+		// Dividing stream’s elements into groups according to some predicate
+		// Custom collector
 		
 		
 		
