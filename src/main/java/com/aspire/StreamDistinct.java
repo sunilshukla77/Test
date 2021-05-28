@@ -46,8 +46,13 @@ public class StreamDistinct {
 		IntStream intStream = IntStream.range(1, 5);
 		
 		Random random = new Random();
-		LongStream longStream = random.longs(5);
-		System.out.println(longStream);
+		LongStream stream = random.longs(5);
+		stream.forEach(System.out::println);
+		
+		
+		
+		/*LongStream stream = LongStream.of(-3L,9L,11L);
+		stream.forEach(System.out::println);*/
 		
 		
 		
