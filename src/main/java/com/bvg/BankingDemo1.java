@@ -8,6 +8,7 @@ class Bank {
 
 class SBI extends Bank {
 	int getRateOfIntrest() {
+		System.out.println("Test");
 		return 8;
 	}
 }
