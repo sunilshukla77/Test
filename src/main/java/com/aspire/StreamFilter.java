@@ -1,7 +1,5 @@
 package com.aspire;
 
-import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamFilter {
@@ -11,14 +9,14 @@ public class StreamFilter {
 		stream.filter(str -> Character.isUpperCase(str.charAt(0))).forEach(System.out::println);
 		
 		
-		 Employee[] arrayOfEmps = {
-				    new Employee(1, "Jeff Bezos", 100000.0), 
-				    new Employee(2, "Bill Gates", 200000.0), 
-				    new Employee(3, "Mark Zuckerberg", 300000.0)
+		 Employee11[] arrayOfEmps = {
+				    new Employee11(1, "Jeff Bezos", 100000.0), 
+				    new Employee11(2, "Bill Gates", 200000.0), 
+				    new Employee11(3, "Mark Zuckerberg", 300000.0)
 				};
 		 
 		//Add  an element
-		Stream.Builder<Employee> empStreamBuilder = Stream.builder();
+		Stream.Builder<Employee11> empStreamBuilder = Stream.builder();
 
 		empStreamBuilder.accept(arrayOfEmps[0]);
 		empStreamBuilder.accept(arrayOfEmps[1]);
