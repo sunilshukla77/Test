@@ -6,7 +6,8 @@ class Employee11 {
 	private String name;
 	private Double salary;
 	
-	public Employee11(Integer id, String name, Double salary) {
+	
+	public Employee11(int id, String name, double salary) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -14,11 +15,11 @@ class Employee11 {
 
 	}
 	
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -30,11 +31,11 @@ class Employee11 {
 		this.name = name;
 	}
 
-	public Double getSalary() {
+	public double getSalary() {
 		return salary;
 	}
 
-	public void setSalary(Double salary) {
+	public void setSalary(double salary) {
 		this.salary = salary;
 	}
 

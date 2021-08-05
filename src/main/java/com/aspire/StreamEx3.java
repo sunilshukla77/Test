@@ -15,7 +15,6 @@ public class StreamEx3 {
 		le.add(new Employee11(4,"Sud", 16000d));
 		le.add(new Employee11(5,"Sup", 8000d));
 		le.add(new Employee11(6,"Bat", 5000d));
-		
 		le.stream().filter(e-> e.getSalary()>5000d).collect(Collectors.toList()).forEach(System.out::println);
 		
 		//le.stream().map(e->e.getSalary()).distinct().collect(Collectors.toList()).forEach(System.out::println);
