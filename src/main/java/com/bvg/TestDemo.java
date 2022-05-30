@@ -1,5 +1,7 @@
 package com.bvg;
 
+import com.sumit.java.stream.Month;
+
 public class TestDemo {
 	
 	private String name; // Variable 
@@ -46,6 +48,8 @@ public class TestDemo {
 		String test= "50";
 		
 		System.out.println(Weekdays.MONDAY);
+		System.out.println(Month.MAY);
+		
 		String aString = String.valueOf(a);
 		System.out.println(aString);
 		
