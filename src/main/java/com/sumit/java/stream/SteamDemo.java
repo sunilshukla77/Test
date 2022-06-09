@@ -14,8 +14,13 @@ public class SteamDemo {
 		
 		
 		float fl = 1212343.23f;
-		char ch = '1';
+		char ch = 'A';
+		synchronized (in) {
+			int x= in; 
+			System.out.println(x);
+		} 
 		boolean b= false;
+		ch= 'B';
 		
 		//Array: collection of similar type of data
 		int[] arrayInt= {1,2,3,4,5,20,15,30};
