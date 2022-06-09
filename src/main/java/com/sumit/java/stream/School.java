@@ -3,8 +3,12 @@ package com.sumit.java.stream;
 import java.io.Serializable;
 
 public class School implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4059519387307690288L;
 	String student;
-	String stanerd;
+	transient String stanerd;
 	int rollno;
 	public String getStudent() {
 		return student;
