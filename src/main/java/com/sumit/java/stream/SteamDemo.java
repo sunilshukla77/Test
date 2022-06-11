@@ -7,6 +7,22 @@ public class SteamDemo {
 	long l= 8123412342344234234l; // Instance Variable
 
 	public static void main(String[] args) throws Throwable {
+		
+		SchoolDto sd= new SchoolDto();
+		sd.setClassTeacher("sumit");
+		sd.setStudentName("arun");
+		System.out.println(sd.getClassTeacher());
+		
+		SchoolDto sd2= new SchoolDto();
+		sd2.setClassTeacher("shokrullah");
+		sd2.setStudentName("arun");
+		
+		System.out.println(sd2.getClassTeacher());
+		
+		Person per = new PersonImpl();
+		per.employed(null);
+
+		
 		byte by = 127; //Local variable
 		short st= 828;
 		
