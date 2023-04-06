@@ -1,0 +1,257 @@
+<mxfile host="65bd71144e">
+    <diagram id="Mb8TEoon7ktnDwIV0cq3" name="JVM">
+        <mxGraphModel dx="1822" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="245" width="780" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="300" width="170" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="BootStrap C.L" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Extention C.L" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Application C.L" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Class Loading" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="270" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Class&amp;nbsp; Loader Sub System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="240" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="294" y="300" width="156" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Linking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Verify" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="310" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Prepair" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="312" y="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Resolve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="312" y="420" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Initialization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1.012;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="4" target="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="390" as="sourcePoint"/>
+                        <mxPoint x="290" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1.012;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="452.03999999999996" y="338.6" as="sourcePoint"/>
+                        <mxPoint x="510" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="610" width="1080" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Verious 5 memory areas of JVM&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="23" y="565" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Method Area" style="swimlane;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="630" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Heap Area" style="swimlane;startSize=30;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="630" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Stack Area" style="swimlane;startSize=30;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="453" y="630" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="PC Register" style="swimlane;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="620" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Native Method Stack" style="swimlane;startSize=25;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="615" width="170" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="540" width="60" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="446" y="540" width="60" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="class Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="670" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="class Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="690" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="class Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="720" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Oject Data&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22class%20Data%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2260%22%20y%3D%22670%22%20width%3D%22100%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="252" y="670" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Oject Data&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22class%20Data%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2260%22%20y%3D%22670%22%20width%3D%22100%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="252" y="700" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Stack" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.stack;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="685" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Stack" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.stack;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="685" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="T1&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Stack%22%20style%3D%22sketch%3D0%3BoutlineConnect%3D0%3BfontColor%3D%23232F3E%3BgradientColor%3Dnone%3BstrokeColor%3D%23232F3E%3BfillColor%3D%23ffffff%3Bdashed%3D0%3BverticalLabelPosition%3Dbottom%3BverticalAlign%3Dtop%3Balign%3Dcenter%3Bhtml%3D1%3BfontSize%3D12%3BfontStyle%3D0%3Baspect%3Dfixed%3Bshape%3Dmxgraph.aws4.resourceIcon%3BresIcon%3Dmxgraph.aws4.stack%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22460%22%20y%3D%22685%22%20width%3D%2260%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="660" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="T2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="660" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="PC Register for T1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="650" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="PC Register for T2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="670" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="PC Register for Tn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="690" width="120" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Stack" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.stack;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="655" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Stack" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.stack;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="655" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="190" width="1410" height="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="JVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="93" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="78" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Test.java" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="-70" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="79" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="Test.class" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="55" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="JVM Interpretor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="421" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Compiler&lt;br&gt;(Byte&amp;nbsp;&lt;br&gt;Code)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="405" y="-20" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="85" target="94" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="820" width="520" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Execution Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="790" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Interpreter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="174" y="830" width="206" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="JIT Compiler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="840" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Intermediat Code Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="870" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Code Optimizer&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Intermediat%20Code%20Generator%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22180%22%20y%3D%22870%22%20width%3D%22190%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="910" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Target Code generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="951" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="Garbage Collector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="94" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="JNi :Java Native Interface" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="895" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;b&gt;Native Method Libraries&lt;br&gt;&lt;/b&gt;&lt;br&gt;Native lib like window, linex, Mac dependent" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="882.5" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=default;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="780" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;h4 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Stack Frame&amp;nbsp; 3 type&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Local variable array&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Frame data&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Operend stack&lt;/span&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="290" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Machin code generator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="1000" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Byte code Verifyer: is it virus or not veryfiy is it velid byte code or not. if verification failed get verify error.&lt;br&gt;&amp;nbsp;&lt;br&gt;Prepair: provide default value for static variable. Orignal value saved in Initalizer&lt;br&gt;Resolve: ?&lt;br&gt;&lt;br&gt;Method Area: class data, Static value&lt;br&gt;Object data: member of object class, Instance variable and data&lt;br&gt;Stack: thread and local variable&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Stack Frame&amp;nbsp; 3 type&lt;br&gt;1. Local variable array&lt;br&gt;2. Frame data&lt;br&gt;3. Operend stack&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;&lt;/blockquote&gt;PC Register : hold next execution instruction, Program counter&lt;br&gt;&lt;br&gt;Interperter : read and execute program line by line.&lt;br&gt;&lt;br&gt;System.gc() and Runtime.getRuntiime().gc()" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-229" y="1080" width="847" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Initailazater" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="531" y="315" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Profiler" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="926" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;Old gen: Long lived object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="-210" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Youn Gen: New Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="-210" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Perm Gen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="506" y="-210" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Heap Area" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="-145" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Non Heep Area" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="525" y="-145" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="MetaSpace: is part of Native memory." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="-210" width="170" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="eFVf8pxg18ztnckATkbE-113" value="&lt;br&gt;GC Algorithem&lt;br&gt;1. Serial:&amp;nbsp;&lt;span style=&quot;color: rgb(35, 38, 41); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;It use a single thread to handle heap, and perform stop-the-world pause during any gc. Just see it as toy.&lt;/span&gt;&lt;br&gt;2. Parallel : for batch application:&lt;span style=&quot;color: rgb(35, 38, 41); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;It uses multiple gc threads to handle heap, and perform stop-the-world pause during any gc.&lt;/font&gt;&lt;br&gt;&lt;/span&gt;3. CMS: Concurrent mark sweep collector for old generation (General application):&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(35, 38, 41); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif;&quot;&gt;It use 1 or more gc threads to scan the old generation periodically,and discard unused objects, the pause is very short, but use more cpu time.&lt;br&gt;&lt;/span&gt;&lt;br&gt;4. G1 GC: garbage first collector/ divide into region base (Predectable/ Target letency appliations, large heaps):&lt;br&gt;&lt;br&gt;&lt;pre style=&quot;border: 1px solid rgb(217, 217, 226); box-sizing: border-box; font-family: menlo, monaco, &amp;quot;Courier New&amp;quot;, Courier, mono, serif; font-size: 13px; line-height: 1.615; background-color: rgb(249, 249, 251); border-radius: 3px; padding: 5px; overflow: auto; margin-top: 0px; margin-bottom: 1em; overflow-wrap: normal !important;&quot; dir=&quot;ltr&quot;&gt;Prod Replica -server -Xms4G -Xmx4G -XX:PermSize=512m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:ParallelGCThreads=20 -XX:ConcGCThreads=5 -XX:InitiatingHeapOccupancyPercent=70&lt;/pre&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;/div&gt;&lt;h2 style=&quot;margin: 0px 0px 0.7em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.3; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; --_pr-code-fs:0.9em; color: rgb(35, 38, 41); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;It's low pause / server style gc, mainly for large heap (&amp;gt; 4Gb).&lt;/font&gt;&lt;/h2&gt;&lt;p style=&quot;margin: 0px 0px 1.1em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; clear: both; --_pr-img-mb:0; color: rgb(35, 38, 41); background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Algorithm:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;margin: 0px 0px 1.1em 30px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; list-style-position: initial; list-style-image: initial; box-sizing: inherit; color: rgb(35, 38, 41); background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;margin: 0px 0px calc(0.55em); padding-top: 0px; padding-bottom: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; --_pr-blockquote-mt:calc(1.1em / 2); --_pr-img-mb:0; overflow-wrap: break-word;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Similar as CMS, it use multiple background gc threads to scan &amp;amp; clear heap.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding-top: 0px; padding-bottom: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; --_pr-blockquote-mt:calc(1.1em / 2); --_pr-img-mb:0; overflow-wrap: break-word;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;It divide old generation into parts, it could clean old generation by copy from 1 part to another.&lt;br style=&quot;box-sizing: inherit;&quot;&gt;Thus it's less possible to get fragmentation.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;5. Shenondoah" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-260" y="-570" width="1390" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;pre style=&quot;box-sizing: border-box; font-family: menlo, monaco, &amp;quot;Courier New&amp;quot;, Courier, mono, serif; font-size: 13px; line-height: 1.615; background-color: rgb(249, 249, 251); border: 1px solid rgb(217, 217, 226); border-radius: 3px; padding: 5px; overflow: auto; margin-top: 0px; margin-bottom: 1em; text-align: start; overflow-wrap: normal !important;&quot; dir=&quot;ltr&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="-550" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; line-height: 1.334; font-family: Raleway, sans-serif; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Simply put, Metaspace is a new memory space – starting from the Java 8 version;&amp;nbsp;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;it has replaced the older PermGen memory space&lt;/span&gt;. The most significant difference is how it handles memory allocation.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; line-height: 1.334; font-family: Raleway, sans-serif; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Specifically,&amp;nbsp;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;this native memory region grows automatically by default&lt;/span&gt;.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; line-height: 1.334; font-family: Raleway, sans-serif; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;We also have new flags to tune the memory:&lt;/font&gt;&lt;/p&gt;&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; font-family: Raleway, sans-serif; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;MetaspaceSize&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;MaxMetaspaceSize –&lt;/em&gt;&amp;nbsp;we can set the Metaspace upper bounds.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;MinMetaspaceFreeRatio –&amp;nbsp;&lt;/em&gt;is the minimum percentage of class metadata capacity free after&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(38, 116, 56); text-decoration-line: none; font-weight: 700;&quot; href=&quot;https://www.baeldung.com/jvm-garbage-collectors&quot;&gt;garbage collection&lt;/a&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;MaxMetaspaceFreeRatio&amp;nbsp;&lt;/em&gt;–&amp;nbsp;is the maximum percentage of class metadata capacity free after a garbage collection to avoid a reduction in the amount of space&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; line-height: 1.334; font-family: Raleway, sans-serif; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Additionally, the garbage collection process also gains some benefits from this change. The garbage collector now automatically triggers the cleaning of the dead classes once the class metadata usage reaches its maximum metaspace size.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="545" y="-65" width="1190" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Neue Helvetica&amp;quot;, Arial, sans-serif; font-size: 14px; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em; color: rgb(34, 34, 34); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;The above options have the following effect:&lt;/p&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem 35px; padding: 0px 0px 0px 10px; font-size: 14px; line-height: 1.6; list-style-position: outside; font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Neue Helvetica&amp;quot;, Arial, sans-serif; color: rgb(34, 34, 34); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-Xms, -Xmx&lt;/span&gt;: Places boundaries on the heap size to increase the predictability of garbage collection. The heap size is limited in replica servers so that even Full GCs do not trigger SIP retransmissions.&amp;nbsp;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-Xms&lt;/span&gt;&amp;nbsp;sets the starting size to prevent pauses caused by heap expansion.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-XX:+UseG1GC&lt;/span&gt;: Use the Garbage First (G1) Collector.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-XX:MaxGCPauseMillis&lt;/span&gt;: Sets a target for the maximum GC pause time. This is a soft goal, and the JVM will make its best effort to achieve it.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-XX:ParallelGCThreads&lt;/span&gt;: Sets the number of threads used during parallel phases of the garbage collectors. The default value varies with the platform on which the JVM is running.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-XX:ConcGCThreads&lt;/span&gt;: Number of threads concurrent garbage collectors will use. The default value varies with the platform on which the JVM is running.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 10px 0px 20px; padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.25rem; padding: 0px; font-family: inherit; line-height: 1.4; text-rendering: optimizelegibility; max-width: 90em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bold;&quot; class=&quot;bold&quot;&gt;-XX:InitiatingHeapOccupancyPercent&lt;/span&gt;: Percentage of the (entire) heap occupancy to start a concurrent GC cycle. GCs that trigger a concurrent GC cycle based on the occupancy of the entire heap and not just one of the generations, including G1, use this option. A value of 0 denotes 'do constant GC cycles'. The default value is 45.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="1370" width="1330" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="Eden, servivor, old region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-250" y="-135" width="160" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="aByUZ_a7CfPN8cfjuxp0" name="Page-2">
+        <mxGraphModel dx="995" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
