@@ -2,6 +2,7 @@ package com.aspire;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class FuncationalInterfaceEx1 {
@@ -30,6 +31,7 @@ public class FuncationalInterfaceEx1 {
 
 		System.out.println("Print numbers greater than 3:");
 		eval(list, n -> n > 3);
+		//customMap(list, )
 	}
 
 	public static void eval(List<Integer> list, Predicate<Integer> predicate) {
@@ -39,4 +41,12 @@ public class FuncationalInterfaceEx1 {
 			}
 		}
 	}
+
+	/*public static Integer custFunction(List<Integer> list, Function f) {
+		for (Integer n : list) {
+			if (predicate.test(n)) {
+				System.out.println(n + " ");
+			}
+		}
+	}*/
 }

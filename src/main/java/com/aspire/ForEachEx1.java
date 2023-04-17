@@ -1,9 +1,12 @@
 package com.aspire;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class ForEachEx1 {
 	public static void main(String[] args) {
@@ -39,5 +42,19 @@ public class ForEachEx1 {
 		
 		//Using forEach() method added to Iterable, Lambda expression and Method references in Java 8
 		friends.forEach(System.out::println);
+
+		Integer[] values = {4,4,3,2,3,2,5};
+		// Custom Filter predicate
+		isEven(Arrays.asList(values), n-> n%2==0);
+		// Custom Map
+
+	}
+
+	public static void isEven(List<Integer> list, Predicate<Integer> p){
+		for (Integer val: list) {
+			if(p.test(val)){
+				System.out.println(val);
+			}
+		}
 	}
 }
